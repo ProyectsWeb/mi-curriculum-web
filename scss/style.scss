@@ -1,0 +1,208 @@
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,
+*:before,
+*:after{
+    box-sizing: inherit;
+}
+
+body{
+    font-family: 'Raleway', sans-serif, Arial;
+    font-size: 1.6rem;
+    line-height: 2;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+img{
+    max-width: 100%;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+h2{
+    font-size: 3.2rem
+}
+
+p{
+    font-size: 2rem
+}
+
+
+
+.container{    
+    display: grid;
+    grid-template-columns: 1fr 1fr;   
+    margin: 4rem 2.5rem;
+    height: auto;  
+    color: #fff;
+}
+
+@media (max-width: 500px) {
+    .container{    
+        /* display: grid; */
+        grid-template-columns: 1fr;   
+      /*   margin: 4rem 2.5rem;
+        height: auto;  
+        color: #fff; */
+    }
+}
+
+
+.mis-datos{        
+    background-image: linear-gradient(to right, #495aff 0%, #0acffe 100%);
+    .box-img{        
+        width: 40%;       
+        margin: 2rem auto;
+        .mi-foto{
+          border-radius: 50%;
+        }        
+    }
+
+
+    .domicilio{         
+        display: flex;     
+        .icono{
+           width: 3rem;
+           text-align: center;
+           margin: auto 1rem;
+           font-size: 2.5rem;
+        }
+
+        .apartado{
+            .dato{      
+                width: auto;    
+                margin: .2rem;
+                font-size: 1.4rem;  
+                margin-left: 1.5rem;      
+             }
+        }
+    
+}
+
+.box-telefono{  
+    display: flex;
+    width: auto;     
+    .icono{      
+        text-align: center;
+        width: 3rem;        
+        margin: .2rem;
+        font-size: 2.5rem;  
+        margin: auto 1rem;      
+    }
+
+    .telefono{
+        width: 100%;
+        .num-tel{
+            height: auto;
+            font-size: 1.4rem;
+            margin: 1rem;
+            margin-left: 2rem;
+        }
+    }
+}
+
+.box-email{
+    display: flex;
+    width: auto;    
+    .icono{      
+        text-align: center;
+        width: 3rem;        
+        margin: .2rem;
+        font-size: 2.5rem;  
+        margin: auto 1rem;      
+    }
+
+    .email{       
+            .mi-email{              
+                font-size: 1.4rem;
+                margin: 1rem;
+                margin-left: 2rem;
+            }
+    }
+}
+
+.box-birth{
+    display: flex;
+     .fa{
+        text-align: center;       
+        width: 3rem;        
+        margin: .2rem;
+        font-size: 2.5rem;  
+        margin: auto 1rem; 
+    }
+    .birth{
+        font-size: 1.4rem;
+        margin: 1rem;
+        margin-left: 2rem; 
+    }
+}
+
+.box-aptitudes{   
+   width: 90%;
+   margin: 0 auto;
+    .h2-aptitudes{
+        font-size: 2.5rem;
+        text-align: center;            
+    }
+    .listado-aptitudes{
+        list-style: none;
+    }
+}
+}
+
+
+.mis-habilidades{
+    width: 100%;   
+    background-color: #3333f3b9;
+    
+   
+  
+   .h2-habilidades{
+    margin-left: 3rem;
+   }
+   .h3-habilidades{
+        text-align: center;
+    }
+
+   .descripcion{
+    font-size: 1.6rem;
+    margin: 1.5rem;
+   }
+
+
+   
+}
+
+
+.mi-formacion{
+    margin-top: 4rem;
+   
+    ul{
+        li{
+            list-style: none;
+        }
+    }
+   }
+
+
+   .box-historial{
+    margin-top: 4rem;
+    
+    h3{
+        text-align: center
+    };
+    li{
+        list-style: none;
+
+    }
+   }
+
+
+
