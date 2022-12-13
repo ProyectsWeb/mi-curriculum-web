@@ -56,6 +56,9 @@ p {
 .mis-datos .box-img .mi-foto {
   border-radius: 50%;
 }
+.mis-datos .h2-habilidades {
+  margin-left: 3rem;
+}
 .mis-datos .domicilio {
   display: flex;
 }
@@ -141,9 +144,9 @@ p {
   border: 1px solid rgba(133, 131, 131, 0.219);
   border-left: none;
   border-radius: 0.5rem;
-}
-.mis-habilidades .h2-habilidades {
-  margin-left: 3rem;
+  /* .h2-habilidades{
+   margin-left: 3rem;
+  } */
 }
 .mis-habilidades .h3-habilidades {
   text-align: center;

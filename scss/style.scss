@@ -61,6 +61,10 @@ p{
         }        
     }
 
+    .h2-habilidades{
+        margin-left: 3rem;
+       }
+
     .domicilio{         
         display: flex;     
         .icono{
@@ -161,9 +165,9 @@ p{
     border-radius: .5rem;
    
   
-   .h2-habilidades{
+   /* .h2-habilidades{
     margin-left: 3rem;
-   }
+   } */
    .h3-habilidades{
         text-align: center;
     }
