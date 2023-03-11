@@ -1,0 +1,59 @@
+.mis-habilidades{
+    width: 100%;  
+    background-color: #fff;    
+    color: #000;
+    border: 2px solid #09aff4;
+    border-left: none;   
+    border-radius: 2rem;
+    margin-left: 1rem;
+    padding: 1rem;
+    -webkit-box-shadow: 9px 9px 12px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 9px 9px 12px -10px rgba(0,0,0,0.75);
+    box-shadow: 9px 9px 12px -10px rgba(0,0,0,0.75);  
+   
+   .h3-habilidades{
+        text-align: center;
+    }
+
+   .descripcion{    
+    font-size: 1.8rem;
+    margin: 1.5rem;    
+   }   
+}
+
+.mi-formacion{
+    margin-top: 4rem;   
+    ul{
+        li{
+            list-style: none;
+            font-size: 1.8rem;           
+        }
+    }
+   }
+
+   .box-historial{
+    margin-top: 4rem;    
+    h3{
+        text-align: center
+    };
+    p{
+        list-style: none;
+        font-size: 1.8rem;
+        padding: 1rem;
+    }
+   }
+
+   .box-referencias{    
+    font-size: 1.8rem;
+    p{
+        margin: .5rem;
+    }
+    h3{
+        text-align: center;
+    }
+    .box-nombre{
+        display: flex;
+        flex-direction: column;
+        margin-top: 2rem;
+    }
+   }

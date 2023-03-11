@@ -33,6 +33,11 @@ p {
   font-size: 2rem;
 }
 
+.titulo-vitae {
+  text-align: center;
+  margin: 6rem auto;
+}
+
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -40,17 +45,26 @@ p {
   height: auto;
   color: #fff;
 }
-@media (max-width: 500px) {
+@media (max-width: 877px) {
   .container {
     grid-template-columns: 1fr;
   }
 }
 
 .mis-datos {
-  background-image: linear-gradient(to right, #495aff 0%, #0acffe 100%);
+  background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+  border: 2px solid #09aff4;
+  border-radius: 2rem;
+}
+.mis-datos .fa {
+  color: #fff;
+  transition: color 1s ease;
+}
+.mis-datos .fa:hover {
+  color: #065c81;
 }
 .mis-datos .box-img {
-  width: 40%;
+  width: 30%;
   margin: 2rem auto;
 }
 .mis-datos .box-img .mi-foto {
@@ -68,6 +82,9 @@ p {
   margin: auto 1rem;
   font-size: 2.5rem;
 }
+.mis-datos .domicilio .apartado {
+  font-size: 1.8rem;
+}
 .mis-datos .domicilio .apartado .dato {
   width: auto;
   margin: 0.2rem;
@@ -77,6 +94,7 @@ p {
 .mis-datos .box-telefono {
   display: flex;
   width: auto;
+  font-size: 1.8rem;
 }
 .mis-datos .box-telefono .icono {
   text-align: center;
@@ -90,7 +108,6 @@ p {
 }
 .mis-datos .box-telefono .telefono .num-tel {
   height: auto;
-  font-size: 1.4rem;
   margin: 1rem;
   margin-left: 2rem;
 }
@@ -106,14 +123,14 @@ p {
   margin: auto 1rem;
 }
 .mis-datos .box-email .email .mi-email {
-  font-size: 1.4rem;
+  font-size: 1.8rem;
   margin: 1rem;
   margin-left: 2rem;
 }
 .mis-datos .box-birth {
   display: flex;
 }
-.mis-datos .box-birth .fa {
+.mis-datos .box-birth .fa-mars-stroke-h {
   text-align: center;
   width: 3rem;
   margin: 0.2rem;
@@ -121,7 +138,7 @@ p {
   margin: auto 1rem;
 }
 .mis-datos .box-birth .birth {
-  font-size: 1.4rem;
+  font-size: 1.8rem;
   margin: 1rem;
   margin-left: 2rem;
 }
@@ -136,23 +153,28 @@ p {
 .mis-datos .box-aptitudes .listado-aptitudes {
   list-style: none;
 }
+.mis-datos .box-aptitudes .listado-aptitudes li {
+  font-size: 1.8rem;
+}
 
 .mis-habilidades {
   width: 100%;
-  background-color: rgba(235, 245, 234, 0.7254901961);
+  background-color: #fff;
   color: #000;
-  border: 1px solid rgba(133, 131, 131, 0.219);
+  border: 2px solid #09aff4;
   border-left: none;
-  border-radius: 0.5rem;
-  /* .h2-habilidades{
-   margin-left: 3rem;
-  } */
+  border-radius: 2rem;
+  margin-left: 1rem;
+  padding: 1rem;
+  -webkit-box-shadow: 9px 9px 12px -10px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 9px 9px 12px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 9px 9px 12px -10px rgba(0, 0, 0, 0.75);
 }
 .mis-habilidades .h3-habilidades {
   text-align: center;
 }
 .mis-habilidades .descripcion {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   margin: 1.5rem;
 }
 
@@ -161,6 +183,7 @@ p {
 }
 .mi-formacion ul li {
   list-style: none;
+  font-size: 1.8rem;
 }
 
 .box-historial {
@@ -169,8 +192,25 @@ p {
 .box-historial h3 {
   text-align: center;
 }
-.box-historial li {
+.box-historial p {
   list-style: none;
+  font-size: 1.8rem;
+  padding: 1rem;
+}
+
+.box-referencias {
+  font-size: 1.8rem;
+}
+.box-referencias p {
+  margin: 0.5rem;
+}
+.box-referencias h3 {
+  text-align: center;
+}
+.box-referencias .box-nombre {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
 }
 
 /*# sourceMappingURL=style.css.map */
